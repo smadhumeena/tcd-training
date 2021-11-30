@@ -4,5 +4,5 @@
 
   tasks:
        - name: clone central repo
-         shell: echo 'HELLO WORLD'
+         shell: echo 'HELLO WORLD 22'
  
