@@ -1,0 +1,8 @@
+---
+- name: sample git book
+  hosts: webservers
+
+  tasks:
+       - name: clone central repo
+         shell: echo 'HELLO WORLD'
+ 
