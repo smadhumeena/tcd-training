@@ -1,6 +1,9 @@
 ---
 - name: sample tomcat book
   hosts: webservers
+  remote_user: ec2-user
+  sudo : yes
+  become: true
   tasks:
       - name: install httpd
         yum:
