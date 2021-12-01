@@ -1,8 +1,7 @@
 ---
 - name: sample tomcat book
   hosts: webservers
-  remote_user: ec2-user
-  sudo : yes
+  user: root
   become: true
   tasks:
       - name: install httpd
