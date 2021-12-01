@@ -3,7 +3,7 @@
   hosts: webservers
   user: root
   become: true
-  become_ask_pass: false
+
   tasks:
       - name: install httpd
         yum:
