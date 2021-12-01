@@ -1,8 +1,6 @@
 ---
 - name: sample tomcat book
   hosts: webservers
-  user: root
-  become: true
 
   tasks:
       - name: install httpd
